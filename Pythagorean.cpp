@@ -30,7 +30,7 @@ int main()
         }
     }
 
-    sort(table, table + idx);
+    std::sort(table, table + idx);
 
     std::cout << table[0] << std::endl;
     
